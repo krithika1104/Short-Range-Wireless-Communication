@@ -10,24 +10,16 @@ This project demonstrates a basic yet effective file transfer system built using
 | Status   | ![Working](https://img.shields.io/badge/Status-Active-success.svg)                 |
 
 🚀 Features
-
 Sends filename, file size, and file data using TCP
 
 Server auto-saves received files
-
-Demonstrates core networking, socket communication, and file handling in Python
-
-Lightweight and easy to set up
+Demonstrates core networking, socket communication, and file handling in Python.
 
 📌 How It Works
-
-The server script starts listening for connections
-
-The client selects a file
-
-File metadata + file content is transmitted in chunks
-
-Server writes data to a new file locally
+1. The server script starts listening for connections
+2. The client selects a file
+3. File metadata + file content is transmitted in chunks
+4. Server writes data to a new file locally
 
 📂 File Structure
 📁 File-Transfer-System
@@ -41,16 +33,12 @@ python File_server.py
 On Client:
 python File_client.py
 
-
 Enter the file name when prompted.
 Make sure the server IP in client script is updated before running.
 
 📎 Requirements
-
-Python 3.x installed
-
-Both scripts running in the same network (or publicly reachable server IP)
+* Python 3.x installed
+* Both scripts running in the same network (or publicly reachable server IP)
 
 👩‍💻 Author
-
-Krithika S
+Krithika S https://github.com/krithika1104/
